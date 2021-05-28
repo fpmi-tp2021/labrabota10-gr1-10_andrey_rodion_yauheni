@@ -19,7 +19,7 @@ iOS 10 +
     - Show active block with museums pictures and name
     - If user clicks to museum active block App will show museum description
     - If user clicks to button "Find" App will show museums with names which contains text from text box
-    - If user clcik to "ViewMap" button App will show map with all museums
+    - If user clcik to "View Map" button App will show map with all museums
     - Button "Back to main" switche off map-view
 
 ### Conviniences of use
@@ -35,3 +35,4 @@ iOS 10 +
 - App should function using by many users at the same time
 - App should not use a large amount of memory with a small number of visitors
 - A single database server must serve requests quickly when the server is under heavy load
+
