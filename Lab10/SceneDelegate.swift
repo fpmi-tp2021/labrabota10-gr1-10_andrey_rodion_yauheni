@@ -1,10 +1,4 @@
-//
-//  SceneDelegate.swift
-//  Task1.2Lab9
-//
-//  Created by Ivan on 01.05.2020.
-//  Copyright © 2020 Ivan. All rights reserved.
-//
+
 
 import UIKit
 
