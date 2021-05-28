@@ -3,7 +3,7 @@
 //  Task1.2Lab9
 //
 //  Created by Andrey Kuksa on 5/26/21.
-//  Copyright © 2021 Ivan. All rights reserved.
+//  Copyright © 2021. All rights reserved.
 //
 
 import UIKit
