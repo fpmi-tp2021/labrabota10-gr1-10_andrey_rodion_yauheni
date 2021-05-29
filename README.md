@@ -12,7 +12,7 @@ Application is produced to users who want to know all about all popular museums.
 | Person           | Role          |
 | -----------------|:-------------:|
 | Andrey Kuksa     |Team Leader, Software Engineer  |
-| Yavgeniy Belitsky|Project Architecture            |
+| Yevgeniy Belitsky|Project Architecture            |
 | Rodion Rutkevich | QA - specialist + build project|
 
 # Features
