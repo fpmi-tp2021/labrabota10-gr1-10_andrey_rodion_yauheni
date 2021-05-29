@@ -2,6 +2,12 @@
 # Description  
 Application is produced to users who want to know all about all popular museums.
 
+# Features
+- Registration and autorization system
+- Navigation map
+- Scroll view with custom active museum blocks
+- Museum searching by db text searching
+
 ## Requirements  
 ### Software  
 iOS 10 +
@@ -36,3 +42,5 @@ iOS 10 +
 - App should not use a large amount of memory with a small number of visitors
 - A single database server must serve requests quickly when the server is under heavy load
 
+# Diagrams
+![image](https://user-images.githubusercontent.com/78808088/120078303-87832880-c0b7-11eb-8263-5805bf067f2e.png)
