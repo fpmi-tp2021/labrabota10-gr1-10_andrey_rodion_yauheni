@@ -55,6 +55,8 @@ iOS 10 +
 - App should not use a large amount of memory with a small number of visitors
 - A single database server must serve requests quickly when the server is under heavy load
 
-
+### Performance requirements
+- The system must support up to 2000 concurrent users
+- Only 20 pictures should be stored in the application memory
  
 
