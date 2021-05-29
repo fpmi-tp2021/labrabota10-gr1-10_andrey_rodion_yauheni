@@ -2,6 +2,19 @@
 # Description  
 Application is produced to users who want to know all about all popular museums.
 
+# Installation  
+???????
+
+# Usage  
+???????
+
+# Contributing
+| Person           | Role          |
+| -----------------|:-------------:|
+| Andrey Kuksa     |Team Leader, Software Engineer  |
+| Yavgeniy Belitsky|Project Architector             |
+| Rodion Rutkevich | QA - specialist + build project|
+
 # Features
 - Registration and autorization system
 - Navigation map
