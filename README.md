@@ -25,7 +25,7 @@ iOS 10 +
 ### Conviniences of use
 - App is localized
 - App protect your account
-- App allow fast nad easy museums searching
+- App allow fast and easy museums searching
 - App allow fast find a specific museum by name
 - Simple and politician graphic interface
 
