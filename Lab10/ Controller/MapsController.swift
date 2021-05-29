@@ -45,7 +45,7 @@ class MapsController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     
     func setupData() {
         for museum in self.items {
-            addLocation(name: museum.name!, coordinateFirst: museum.firstCoordinate as! Double, coordinateSecond: museum.secondCoordinate as! Double)
+            addLocation(name: NSLocalizedString(museum.name!, comment: ""), coordinateFirst: museum.firstCoordinate as! Double, coordinateSecond: museum.secondCoordinate as! Double)
         }
     }
      

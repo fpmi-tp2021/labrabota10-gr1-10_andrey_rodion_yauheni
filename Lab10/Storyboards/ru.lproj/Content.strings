@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Avaible museums"; ObjectID = "8Hb-Ga-jOk"; */
+"8Hb-Ga-jOk.text" = "Доступные музеи";
+
+/* Class = "UITextField"; placeholder = "Enter name"; ObjectID = "GBK-wJ-qod"; */
+"GBK-wJ-qod.placeholder" = "Название музея";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "IB0-0u-FGY"; */
+"IB0-0u-FGY.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "View Map"; ObjectID = "IXZ-TC-pdG"; */
+"IXZ-TC-pdG.normalTitle" = "К карте";
+
+/* Class = "UIButton"; normalTitle = "Add museum"; ObjectID = "bGi-eC-Zwi"; */
+"bGi-eC-Zwi.normalTitle" = "Add museum";
+
+/* Class = "UIButton"; normalTitle = "Back to main"; ObjectID = "fd9-Qz-aSS"; */
+"fd9-Qz-aSS.normalTitle" = "На главную";
+
+/* Class = "UIButton"; normalTitle = "Find"; ObjectID = "wJq-f2-3qV"; */
+"wJq-f2-3qV.normalTitle" = "Найти";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yrJ-cy-ZUm"; */
+"yrJ-cy-ZUm.text" = "Label";

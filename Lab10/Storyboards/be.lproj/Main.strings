@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2k8-IJ-zaL"; */
+"2k8-IJ-zaL.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "EjX-K0-iiE"; */
+"EjX-K0-iiE.placeholder" = "Уваход";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "HNN-vz-Zze"; */
+"HNN-vz-Zze.placeholder" = "Рэгістрацыя";
+
+/* Class = "UISegmentedControl"; U4v-fw-gyl.segmentTitles[0] = "Login"; ObjectID = "U4v-fw-gyl"; */
+"U4v-fw-gyl.segmentTitles[0]" = "Уваход";
+
+/* Class = "UISegmentedControl"; U4v-fw-gyl.segmentTitles[1] = "Register"; ObjectID = "U4v-fw-gyl"; */
+"U4v-fw-gyl.segmentTitles[1]" = "Рэгістрацыя";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "VKW-6M-dgh"; */
+"VKW-6M-dgh.placeholder" = "Эл пошта";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "XqQ-4R-UzR"; */
+"XqQ-4R-UzR.normalTitle" = "Рэгістрацыя";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "nAf-BS-HEM"; */
+"nAf-BS-HEM.placeholder" = "Уваход";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "qB0-iV-7UH"; */
+"qB0-iV-7UH.normalTitle" = "Confirm";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "uvH-bd-Sh3"; */
+"uvH-bd-Sh3.placeholder" = "Пароль";

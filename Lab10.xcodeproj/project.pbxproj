@@ -13,7 +13,6 @@
 		2C50CC79245CBF330065E303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50CC77245CBF330065E303 /* Main.storyboard */; };
 		2C50CC7B245CBFA20065E303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50CC7A245CBFA20065E303 /* Assets.xcassets */; };
 		2C50CC7E245CBFA20065E303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50CC7C245CBFA20065E303 /* LaunchScreen.storyboard */; };
-		3F2F1051265D436400334C77 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F1050265D436400334C77 /* Content.storyboard */; };
 		3F2F1054265D597D00334C77 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F1053265D597C00334C77 /* ContentController.swift */; };
 		3FA6D913265E6FA600D23D87 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6D912265E6FA600D23D87 /* MapsController.swift */; };
 		3FA6D917265E71B800D23D87 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6D915265E71B800D23D87 /* Model.xcdatamodeld */; };
@@ -24,6 +23,8 @@
 		3FA6D996265FE73400D23D87 /* Cities+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6D990265FE73400D23D87 /* Cities+CoreDataProperties.swift */; };
 		3FCE08E326612BD7003F12D2 /* Museums+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE08E126612BD7003F12D2 /* Museums+CoreDataClass.swift */; };
 		3FCE08E426612BD7003F12D2 /* Museums+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE08E226612BD7003F12D2 /* Museums+CoreDataProperties.swift */; };
+		3FD1688726624522004FE35F /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1688926624522004FE35F /* Content.storyboard */; };
+		3FD1689326624646004FE35F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1689526624646004FE35F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,19 +35,27 @@
 		2C50CC78245CBF330065E303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C50CC7A245CBFA20065E303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C50CC7D245CBFA20065E303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2C50CC7F245CBFA20065E303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F2F1050265D436400334C77 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
 		3F2F1053265D597C00334C77 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
 		3FA6D912265E6FA600D23D87 /* MapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
 		3FA6D916265E71B800D23D87 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3FA6D94A265FD16E00D23D87 /* MuseumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumCell.swift; sourceTree = "<group>"; };
-		3FA6D94D265FD41200D23D87 /* MuseumInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MuseumInfo.plist; sourceTree = "<group>"; };
 		3FA6D98D265FE73400D23D87 /* MuseumTypes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MuseumTypes+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3FA6D98E265FE73400D23D87 /* MuseumTypes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MuseumTypes+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FA6D98F265FE73400D23D87 /* Cities+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cities+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3FA6D990265FE73400D23D87 /* Cities+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cities+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FCE08E126612BD7003F12D2 /* Museums+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Museums+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3FCE08E226612BD7003F12D2 /* Museums+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Museums+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3FD1687C26623C09004FE35F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD16881266242BD004FE35F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3FD16882266242BE004FE35F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		3FD1688326624300004FE35F /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3FD1688426624306004FE35F /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Main.strings; sourceTree = "<group>"; };
+		3FD1688826624522004FE35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Content.storyboard; sourceTree = "<group>"; };
+		3FD1688C2662453F004FE35F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Content.strings; sourceTree = "<group>"; };
+		3FD1688E2662456F004FE35F /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Content.strings; sourceTree = "<group>"; };
+		3FD1689426624646004FE35F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3FD168972662464A004FE35F /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3FD168982662464B004FE35F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		2C50CC65245CBF330065E303 = {
 			isa = PBXGroup;
 			children = (
+				3FD1689526624646004FE35F /* Localizable.strings */,
 				3FCE08E126612BD7003F12D2 /* Museums+CoreDataClass.swift */,
 				3FCE08E226612BD7003F12D2 /* Museums+CoreDataProperties.swift */,
 				3FA6D98D265FE73400D23D87 /* MuseumTypes+CoreDataClass.swift */,
@@ -85,16 +95,15 @@
 		2C50CC70245CBF330065E303 /* Lab10 */ = {
 			isa = PBXGroup;
 			children = (
+				3FD1687C26623C09004FE35F /* Info.plist */,
 				3FA6D93A265E7E2C00D23D87 /* Model */,
 				3FA6D911265E6E6200D23D87 /*  Controller */,
 				3F2F104F265D429700334C77 /* Storyboards */,
 				2C50CC71245CBF330065E303 /* AppDelegate.swift */,
 				2C50CC73245CBF330065E303 /* SceneDelegate.swift */,
 				2C50CC7A245CBFA20065E303 /* Assets.xcassets */,
-				2C50CC7F245CBFA20065E303 /* Info.plist */,
 				3FA6D915265E71B800D23D87 /* Model.xcdatamodeld */,
 				3FA6D94A265FD16E00D23D87 /* MuseumCell.swift */,
-				3FA6D94D265FD41200D23D87 /* MuseumInfo.plist */,
 			);
 			path = Lab10;
 			sourceTree = "<group>";
@@ -104,7 +113,7 @@
 			children = (
 				2C50CC7C245CBFA20065E303 /* LaunchScreen.storyboard */,
 				2C50CC77245CBF330065E303 /* Main.storyboard */,
-				3F2F1050265D436400334C77 /* Content.storyboard */,
+				3FD1688926624522004FE35F /* Content.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -169,6 +178,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				be,
 			);
 			mainGroup = 2C50CC65245CBF330065E303;
 			productRefGroup = 2C50CC6F245CBF330065E303 /* Products */;
@@ -185,7 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2F1051265D436400334C77 /* Content.storyboard in Resources */,
+				3FD1689326624646004FE35F /* Localizable.strings in Resources */,
+				3FD1688726624522004FE35F /* Content.storyboard in Resources */,
 				2C50CC7E245CBFA20065E303 /* LaunchScreen.storyboard in Resources */,
 				2C50CC7B245CBFA20065E303 /* Assets.xcassets in Resources */,
 				2C50CC79245CBF330065E303 /* Main.storyboard in Resources */,
@@ -222,6 +234,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C50CC78245CBF330065E303 /* Base */,
+				3FD16882266242BE004FE35F /* ru */,
+				3FD1688426624306004FE35F /* be */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -230,8 +244,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C50CC7D245CBFA20065E303 /* Base */,
+				3FD16881266242BD004FE35F /* ru */,
+				3FD1688326624300004FE35F /* be */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FD1688926624522004FE35F /* Content.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD1688826624522004FE35F /* Base */,
+				3FD1688C2662453F004FE35F /* ru */,
+				3FD1688E2662456F004FE35F /* be */,
+			);
+			name = Content.storyboard;
+			sourceTree = "<group>";
+		};
+		3FD1689526624646004FE35F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD1689426624646004FE35F /* en */,
+				3FD168972662464A004FE35F /* be */,
+				3FD168982662464B004FE35F /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -241,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -301,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

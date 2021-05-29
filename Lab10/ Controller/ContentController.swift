@@ -45,11 +45,11 @@ class ContentController: UIViewController, UICollectionViewDataSource, UICollect
            // get a reference to our storyboard cell
            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! MuseumCell
            
-        var description = self.items[indexPath.row].museumDescription
+        var description = NSLocalizedString(self.items[indexPath.row].museumDescription!, comment: "")
         
         museumDescription.text = description
         
-        let name = self.items[indexPath.row].name
+        let name = NSLocalizedString(self.items[indexPath.row].name!, comment: "")
         
         let image = self.items[indexPath.row].imagePath
         
