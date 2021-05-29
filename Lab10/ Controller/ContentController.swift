@@ -33,7 +33,15 @@ class ContentController: UIViewController, UICollectionViewDataSource, UICollect
       
        
        // MARK: - UICollectionViewDataSource protocol
-       
+    
+     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let museum = self.items[indexPath.row].museumDescription;
+        
+        museumDescription.text=NSLocalizedString(museum as! String, comment: "Some comment");
+        
+        
+    }
        // tell the collection view how many cells to make
        func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
            return self.items.count
@@ -71,20 +79,20 @@ class ContentController: UIViewController, UICollectionViewDataSource, UICollect
 
         
     @IBAction func addMuseum(_ sender: Any) {
-//        for object in items{
-//            container.delete(object)
-//        }
-//        try! container.save()
+
+        container.delete(self.items[2])
+
+        try! container.save()
         
         let cityName = "Minsk"
         let cityId = 1
         
-        let typeName = "Animal museum"
-        let typeId = 4
+        let typeName = "Technology museum"
+        let typeId = 3
         
-        let museumName = "Minsk cat museum"
-        let imagePath = "Cat_mus"
-        let description = "I don't know what should i write here"
+        let museumName = "Car museum"
+        let imagePath = "Auto_mus"
+        let description = "Museum with different cars from USSR, Russia and Belarus"
         
         let type = MuseumTypes(context:self.container)
         type.typeName = typeName
@@ -100,8 +108,8 @@ class ContentController: UIViewController, UICollectionViewDataSource, UICollect
         museum.cityId = NSNumber(value:cityId)
         museum.type = NSNumber(value:typeId)
         museum.museumDescription = description
-        museum.firstCoordinate = 53.903824
-        museum.secondCoordinate = 27.558707
+        museum.firstCoordinate = 53.9128405
+        museum.secondCoordinate = 27.565720
      
         try! self.container.save()
         self.fetchMuseums()

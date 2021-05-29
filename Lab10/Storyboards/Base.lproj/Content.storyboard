@@ -13,7 +13,7 @@
         <!--Content Controller-->
         <scene sceneID="pRZ-Db-zth">
             <objects>
-                <viewController storyboardIdentifier="MainPageVC" id="5wM-Mt-mdD" customClass="ContentController" customModule="Task1_2Lab9" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainPageVC" id="5wM-Mt-mdD" customClass="ContentController" customModule="Lab10" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r7F-Pm-5Bo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,6 +22,7 @@
                                 <rect key="frame" x="0.0" y="211" width="414" height="473"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <gestureRecognizers/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xZf-QZ-Al5">
                                     <size key="itemSize" width="318" height="221"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -29,7 +30,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="cell" id="bXk-ja-TTJ" customClass="MuseumCell" customModule="Task1_2Lab9" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="cell" id="bXk-ja-TTJ" customClass="MuseumCell" customModule="Lab10" customModuleProvider="target">
                                         <rect key="frame" x="48" y="0.0" width="318" height="221"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g8T-Ls-xI1">
@@ -49,6 +50,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
+                                            <gestureRecognizers/>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <size key="customSize" width="318" height="221"/>
@@ -124,7 +126,7 @@
         <!--Maps Controller-->
         <scene sceneID="1gH-Ah-roJ">
             <objects>
-                <viewController id="LP2-eu-2DK" customClass="MapsController" customModule="Task1_2Lab9" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LP2-eu-2DK" customClass="MapsController" customModule="Lab10" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3kI-Nj-yHA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
