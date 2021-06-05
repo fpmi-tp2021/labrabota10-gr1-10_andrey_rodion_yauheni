@@ -23,10 +23,9 @@ Application is produced to users who want to know all about all popular museums.
 
 ## Requirements  
 ### Software  
-iOS 10 +
-?????  
+any iOS version
 ### Hardware  
-?????  
+any iPhone
 ## Requirements specification
 ### Funtional requirements
 - Login page
